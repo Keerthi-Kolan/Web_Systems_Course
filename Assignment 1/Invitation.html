@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" 
+            href="Invitation.css">
+            <script src="invitation.js"></script>
+        
+    </head>
+    <body>
+        <form id="Invitation Form">
+        <div class="left">
+            <img id="myimg" src="You are invited.png">
+        </div>
+        <div class="right">
+            <br><br>
+            <label for="event">Event Name:</label>
+            <input id="event" type="text"><br><br>
+            <label for="date">Date:</label>
+            <input id="date" type="date"> <br><br>
+            <label for="time">Time:</label>
+            <input id="time" type="time"><br><br>
+            <label for="location">Location:</label>
+            <input id="location" type="text"><br><br>
+            <label for="des">Description:</label><br>
+            <textarea id="des" rows="4" cols="50"></textarea><br><br>
+            <button type="button" class="button submit" onclick="validateform()">Submit</button>
+            <button type="button" class="button agree"onclick="agreeform()">Agree</button>
+            <button type="button" class="button disagree"onclick="disagreeform()">Disagree</button><br><br>
+            <img id="myImage" src="white.png" style="width:100px">
+        
+        </form>
+        
+        
+    </body>
+    
+</html>
